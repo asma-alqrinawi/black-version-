@@ -1,0 +1,327 @@
+body{
+	font-family: 'Lato', sans-serif;
+	direction: ltr;
+	/*  background-image: url(../img/blackbg.jpg); */
+
+}
+
+.container{
+	width: 1200px;
+
+
+}
+
+/* Herader | Start */
+
+.header {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.header span{
+	color: #ff972a;
+}
+
+.header p{
+	color: #453f41;
+}
+
+/* Herader | End */
+/*blackSec |Start */
+.blackSec{
+	background-image:url(../img/bg2.jpg);
+	width: 100%;
+	
+}
+.leftside{
+	background-color: black;
+	width: 370px;
+	height:auto;
+	padding-left:40px; 
+	padding-right:50px;
+}
+
+.heading span {
+	font-size: 25px;
+	color: white;
+	padding-bottom: 10px;
+
+}
+
+/*FristSec| Start*/
+.fa {
+	font-size: 20px;
+	color: white;
+	border-color:#ffc209;
+	margin-top: 12px;
+	margin-bottom: 12px;
+
+}
+
+.checked {
+	color:#ffc209;
+}
+
+.righttext{
+	font-size: 17px;
+	color: white;
+	margin-top: 12px;
+	margin-left: 15px;
+}
+
+/* Rate | Srart */
+.side {
+	float:left;
+	width:15%;
+	margin-top:10px;
+	color: white;
+	margin-right:10px;
+	font-size: 15px;
+}
+
+.middle {
+	margin-top:10px;
+	float: left;
+	width: 60%;
+}
+
+/* Place text to the right */
+.right {
+	text-align: right;
+	color: white;
+	font-size: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* The bar container */
+.bar-container {
+	width: 100%;
+	background-color: #f1f1f1;
+	text-align: center;
+	color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 63%; height: 18px; background-color: #ff9800;}
+.bar-4 {width: 11%; height: 18px; background-color: #ff9800;}
+.bar-3 {width: 8%; height: 18px; background-color: #ff9800;}
+.bar-2 {width: 6%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 12%; height: 18px; background-color: #ff9800;}
+/* Rate | Srart */
+/*FristSec| Start*/
+/*SecondSec| Start*/
+.secondSec , .thirdSec{
+	margin-top: 60px;
+}
+.secondSec .writer , .thirdSec .writer {
+	color: white;
+	font-size: 14px;
+	margin-top:10px;
+
+}
+
+.secondSec .orangeText , .thirdSec .orangeText {
+	color: #ff9800; 
+	margin-top: 10px;
+}
+
+.secondSec p , .thirdSec p {
+	color:#828282;
+	font-size:15px;  
+}
+
+/*SecondSec| End*/
+.leftside hr{
+	color:white;
+	border-color:white;
+}
+
+.leftside summary{
+	color:white;
+}
+.leftside details {
+	float:right;
+	color:#828282;	
+}
+/* blackSec| End */
+/* PeugeotSec| Start */
+.PeugeotSec{
+	padding-left:15px;
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+.peugeotSec h3{
+	color: white;
+
+}
+.PeugeotSec .title{
+	font-size: 22px;
+	color: white;
+	padding-top: 30px;
+}
+.PeugeotSec .list{
+	margin-top: 20px;
+}
+.list p{
+	color:white;
+
+}
+.list p span{
+	margin-right: 12px;
+}
+.PeugeotSec hr{
+	color:white;
+	border-color:white;
+}
+
+.PeugeotSec p{
+	color:white;	
+}
+.PeugeotSec .CouponeBtn{
+	background: #fc9917;
+	height: 60px;
+	width: 400px;
+	color: white;
+	font-size: 30px;
+	border-radius: 5px; 
+	padding: 10px 70px 60px 70px; 
+	margin-bottom: 15px;
+
+
+}
+
+.PeugeotSec .CouponeBtn:hover{
+	background: black;
+	color:#eea616;
+	font-weight: bold;
+	text-shadow:0px 0px 2px white; 
+}
+
+form{
+	opacity: 0.5px;
+	border-radius:5px;
+
+}
+
+.modal input{
+	color: black;
+	border: 1px solid black;
+	font-size: 20px;
+	height: 60px;
+	width: 400px;
+	margin-top: 30px;
+	padding-left: 10px;
+	font-style: italic;
+
+
+}
+.modal-content button{
+	background-color:#fc9917;
+	font-size: 30px;
+	color:white;
+	text-shadow:0px 0px 4px white;
+}
+
+.modal-content form p{
+	float: left;
+	color: black;
+}
+/* webkit based browsers F*/
+input::-webkit-input-placeholder {
+	color: black;
+}
+
+/* Firefox 18- */
+input:-moz-placeholder 
+{
+	color: black;  
+}
+
+/* Firefox 19+ */
+input::-moz-placeholder
+{
+	color: black;  
+}
+
+/* Internet Explorer */
+input:-ms-input-placeholder 
+{  
+	color: purple;  
+}
+
+
+.PeugeotSec .notes span{
+	font-size: 15px;
+	text-align: center;
+	margin-left: 30px;
+	color: white;
+
+
+}
+
+/* PeugeotSec| End */
+/* PictureSec| Start*/
+.picture img{
+	margin-top:150px;
+	margin-left: 50px;
+
+}
+.amzonLogo img{
+	margin-top: 20px;
+	margin-left: 12px;
+
+}
+
+/* PictureSec| End */
+/*blackSec |End*/
+/* footer|Start*/
+
+.footer{
+	color:#dbdbdb;
+	margin-bottom:20px;
+	color: black;
+	margin-top: 20px;
+	padding-left: 30px;
+}
+.link{
+	color:black;
+	padding-right: 12px;
+}
+.link:last-child{
+	padding-right:none;
+}
+.link:hover{
+	color: #eea616;
+}
+
+
+/* footer | End*/
+
+@media (max-width: 1140px){
+}
+@media(max-width: 960px){
+
+}
+
+@media (max-width:  768px){
+
+
+}
+
+@media (max-width: 540px)/*for small screen*/
+
+{
+
+
+
+
+}
