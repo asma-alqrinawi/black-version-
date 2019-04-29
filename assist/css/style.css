@@ -346,7 +346,7 @@ input:-ms-input-placeholder
 }
 .modal-content button{
 	font-size: 20px;
-	width: 300px;
+	width: 270px;
 	margin-left: 30px;
 }
 
@@ -363,12 +363,12 @@ input:-ms-input-placeholder
 }
 .modal input{
 	
-	width:170px;
+	width:180px;
 }
 .modal-content button{
 	font-size: 18px;
-	width:170px;
-	margin-left: 20px;
+	width:180px;
+	margin-left: 30px;
 }
 .picture img{
 		margin-top:50px;
