@@ -363,11 +363,11 @@ input:-ms-input-placeholder
 }
 .modal input{
 	
-	width: 200px;
+	width:200px;
 }
 .modal-content button{
 	font-size: 18px;
-	width: 200px;
+	width:200px;
 	margin-left: 20px;
 }
 .picture img{
