@@ -307,21 +307,77 @@ input:-ms-input-placeholder
 /* footer | End*/
 
 @media (max-width: 1140px){
+	.picture img{
+		margin-top:50px;
+
+	}
+	.amzonLogo img{
+		margin-top: 2px;
+		margin-left:400px;
+
+	}
 }
 @media(max-width: 960px){
+	.leftside{
+		margin-left: 50px;		
+	}
+	.picture img{
+		margin-top:50px;
+		margin-left: 150px;
+
+	}
+	.amzonLogo img{
+		margin-top: 2px;
+		margin-left:5px;
+
+	}
+}
+
+@media (max-width:463px){
+
+.PeugeotSec .CouponeBtn{
+	height: 40px;
+	width: 300px;
+	font-size: 25px;	
+}
+.modal input{
+	
+	width: 300px;
+}
+.modal-content button{
+	font-size: 20px;
+	width: 300px;
+	margin-left: 30px;
+}
 
 }
 
-@media (max-width:  768px){
-
-
-}
-
-@media (max-width: 540px)/*for small screen*/
+@media (max-width:390px)/*for small screen*/
 
 {
 
+.PeugeotSec .CouponeBtn{
+	height: 20px;
+	width: 280px;
+	font-size: 20px;	
+}
+.modal input{
+	
+	width: 300px;
+}
+.modal-content button{
+	font-size: 20px;
+	width: 300px;
+	margin-left: 30px;
+}
+.picture img{
+		margin-top:50px;
+		margin-left: 50px;
 
+	}
+.amzonLogo img{
+		margin-top: 2px;
+		margin-left:0px;
 
-
+	}
 }
