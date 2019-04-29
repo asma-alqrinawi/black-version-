@@ -358,17 +358,17 @@ input:-ms-input-placeholder
 
 .PeugeotSec .CouponeBtn{
 	height: 20px;
-	width: 280px;
+	width: 250px;
 	font-size: 20px;	
 }
 .modal input{
 	
-	width: 300px;
+	width: 270px;
 }
 .modal-content button{
-	font-size: 20px;
-	width: 300px;
-	margin-left: 30px;
+	font-size: 18px;
+	width: 250px;
+	margin-left: 20px;
 }
 .picture img{
 		margin-top:50px;
